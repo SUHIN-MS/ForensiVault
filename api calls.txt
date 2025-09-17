@@ -1,0 +1,3 @@
+POST http://localhost:3000/upload
+
+GET http://localhost:3000/verify/<paste_id_here>
