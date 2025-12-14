@@ -13,7 +13,7 @@ const evidenceSchema = new mongoose.Schema({
 const logSchema = new mongoose.Schema({
   index: Number,
   action: String,
-  fileId: mongoose.Schema.Types.ObjectId,
+  evidenceId: mongoose.Schema.Types.ObjectId,  // ✅ Changed from fileId
   timestamp: { type: Date, default: Date.now },
   prevHash: String,
   entryHash: String

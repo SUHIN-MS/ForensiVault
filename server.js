@@ -39,15 +39,15 @@ function authMiddleware(req, res, next) {
 }
 
 // Blockchain log helper
-async function createLog(action, fileId, extra = {}) {
+async function createLog(action, evidenceId, extra = {}) {  // ✅ Changed parameter name
   const lastLog = await Log.findOne().sort({ index: -1 });
   const prevHash = lastLog ? lastLog.entryHash : "GENESIS";
   const index = lastLog ? lastLog.index + 1 : 0;
 
-  const payload = JSON.stringify({ index, action, fileId, ...extra, timestamp: new Date() });
+  const payload = JSON.stringify({ index, action, evidenceId, ...extra, timestamp: new Date() });  // ✅ Changed
   const entryHash = crypto.createHash("sha256").update(prevHash + payload).digest("hex");
 
-  const log = new Log({ index, action, fileId, prevHash, entryHash });
+  const log = new Log({ index, action, evidenceId, prevHash, entryHash });  // ✅ Changed
   await log.save();
   return log;
 }
@@ -141,7 +141,7 @@ app.get("/report/:id", authMiddleware, async (req, res) => {
   const evidence = await Evidence.findById(req.params.id);
   if (!evidence) return res.status(404).json({ error: "Not found" });
 
-  const logs = await Log.find({ fileId: evidence._id });
+  const logs = await Log.find({ evidenceId: evidence._id });  // ✅ Changed from fileId
 
   // Generate PDF
   const doc = new PDFDocument();
@@ -169,7 +169,7 @@ app.get("/report/:id", authMiddleware, async (req, res) => {
 // -----------------------------
 app.get("/search", async (req, res) => {
   const { filename } = req.query;
-  console.log("🔎 Search query received:", filename); // <-- DEBUG
+  console.log("🔎 Search query received:", filename);
 
   if (!filename || filename.trim() === "") {
     return res.status(400).json({ message: "Filename query parameter is required" });
@@ -177,17 +177,15 @@ app.get("/search", async (req, res) => {
 
   try {
     const results = await Evidence.find({
-      filename: { $regex: filename, $options: "i" }, // partial + case-insensitive
+      filename: { $regex: filename, $options: "i" },
     });
 
-    console.log("📂 Search results from DB:", results); // <-- DEBUG
+    console.log("📂 Search results from DB:", results);
     res.json(results);
   } catch (err) {
     console.error("❌ Search error:", err);
     res.status(500).json({ message: "Error searching files" });
   }
 });
-
-
 
 app.listen(3000, () => console.log("Server running on http://localhost:3000"));
