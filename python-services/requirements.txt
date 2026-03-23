@@ -1,0 +1,20 @@
+# ForensiVault Python Services - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Web Framework
+flask==3.0.0
+flask-cors==4.0.0
+
+# File Type Detection (Windows compatible)
+python-magic-bin==0.4.14
+
+# Image Processing
+Pillow>=11.0.0
+
+# Document Parsing
+python-docx==1.1.0
+PyPDF2==3.0.1
+openpyxl==3.1.2
+
+# Utilities
+python-dateutil==2.8.2

@@ -1,0 +1,20 @@
+FORENSIVAULT TEST EVIDENCE FILE
+================================
+Created: 2026-02-23T08:01:11.378Z
+Purpose: Testing tampering detection
+
+CONFIDENTIAL INFORMATION:
+Line 1: Case Number: FV-2024-001
+Line 2: Suspect Name: John Doe
+Line 3: Location: 123 Main Street
+Line 4: Date of Incident: 2024-01-15
+Line 5: Officer Badge: #12345
+Line 6: Evidence Type: Document
+Line 7: Chain of Custody: Intact
+Line 8: Status: Original
+
+NOTES:
+This is an original unmodified document.
+Any changes to this file should be detected.
+================================
+END OF DOCUMENT

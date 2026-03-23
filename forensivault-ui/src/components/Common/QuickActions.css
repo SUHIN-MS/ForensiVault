@@ -1,0 +1,130 @@
+.quick-actions {
+  background: var(--bg-secondary);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  padding: 1.25rem;
+}
+
+.quick-actions-header {
+  margin-bottom: 1rem;
+}
+
+.quick-actions-header h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.quick-actions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+.quick-action-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1rem;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-align: left;
+}
+
+.quick-action-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.quick-action-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.quick-action-content {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.quick-action-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.quick-action-desc {
+  font-size: 0.6875rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Color variants */
+.action-primary .quick-action-icon {
+  background: rgba(102, 126, 234, 0.15);
+  color: var(--primary-color);
+}
+
+.action-primary:hover {
+  border-color: var(--primary-color);
+}
+
+.action-success .quick-action-icon {
+  background: var(--success-bg);
+  color: var(--success-color);
+}
+
+.action-success:hover {
+  border-color: var(--success-color);
+}
+
+.action-info .quick-action-icon {
+  background: var(--info-bg);
+  color: var(--info-color);
+}
+
+.action-info:hover {
+  border-color: var(--info-color);
+}
+
+.action-warning .quick-action-icon {
+  background: var(--warning-bg);
+  color: var(--warning-color);
+}
+
+.action-warning:hover {
+  border-color: var(--warning-color);
+}
+
+.action-secondary .quick-action-icon {
+  background: var(--bg-hover);
+  color: var(--text-secondary);
+}
+
+.action-default .quick-action-icon {
+  background: var(--bg-hover);
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .quick-actions-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .quick-actions-grid {
+    grid-template-columns: 1fr;
+  }
+}
