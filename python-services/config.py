@@ -21,9 +21,9 @@ class Config:
     CARVED_DIR = BASE_DIR / 'carved'
 
     # Server settings
-    HOST = '127.0.0.1'
-    PORT = 5001
-    DEBUG = True
+    HOST = '0.0.0.0'
+    PORT = int(os.environ.get('PORT', 5001))
+    DEBUG = os.environ.get('FLASK_ENV') != 'production'
 
     # File limits
     MAX_DISK_IMAGE_SIZE = 1024 * 1024 * 1024 * 1024  # 1 TB in bytes
@@ -82,4 +82,4 @@ class ProductionConfig(Config):
 
 
 # Active configuration
-ActiveConfig = DevelopmentConfig
+ActiveConfig = ProductionConfig
