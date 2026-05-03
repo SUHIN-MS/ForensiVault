@@ -6,7 +6,8 @@ flask==3.0.0
 flask-cors==4.0.0
 
 # File Type Detection (Windows compatible)
-python-magic==0.4.
+python-magic==0.4.27
+
 
 # Image Processing
 Pillow>=11.0.0
