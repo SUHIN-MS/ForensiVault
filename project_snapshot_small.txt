@@ -1,0 +1,729 @@
+===== FOLDER STRUCTURE =====
+-p
+carved
+  699b14d242c9084c5ce67dd1
+    carved_0001.pdf
+    carved_0002.jpg
+    carved_0003.pdf
+    carved_0004.jpg
+    carved_0005.pdf
+  699b1c5a563fc3f5c724d9e5
+    carved_0001.pdf
+    carved_0002.jpg
+    carved_0003.pdf
+    carved_0004.jpg
+    carved_0005.pdf
+  699be5b5563fc3f5c724e2e7
+    carved_0001.pdf
+    carved_0002.jpg
+    carved_0003.pdf
+    carved_0004.jpg
+    carved_0005.pdf
+  69c1fbe05e47350a876315c8
+    carved_0001.pdf
+    carved_0002.jpg
+    carved_0003.pdf
+    carved_0004.jpg
+    carved_0005.pdf
+  69c1fc9c5e47350a8763174e
+    carved_0001.pdf
+    carved_0002.jpg
+    carved_0003.pdf
+    carved_0004.jpg
+    carved_0005.pdf
+disk-images
+  1771773018876_test_disk.img
+  1771824565279_test_disk.img
+  1774320608740_test_disk.img
+  1774320796161_test_disk.img
+encrypted
+  059428c1e1bbe939c6384d7f976a1ab2.enc
+  07df66a4840afac14208bc94e884410a.enc
+  0a72322589f2b56d391b2f1d4e0f4a4c.enc
+  163de1e4590532953723010cf9f1c252.enc
+  1760640140298-hadhi muhammed.pdf.enc
+  1760640166412-hadhi muhammed.pdf.enc
+  1760640195057-hadhi muhammed.pdf.enc
+  1760640277934-Suhin Report Final.pdf.enc
+  1760640371428-hadhi muhammed.pdf.enc
+  1760640450745-hadhi muhammed.pdf.enc
+  1760640586766-hadhi muhammed.pdf.enc
+  1760640609074-hadhi muhammed.pdf.enc
+  1760640705045-hadhi muhammed.pdf.enc
+  179d63176041f908ee1efe1b0fad39fc.enc
+  2846a03a85cf70bf2fb0c62657b2ed62.enc
+  2a94e61faeddff19e21f802912d8b125.enc
+  2a94e61faeddff19e21f802912d8b125.enc.backup
+  42e60bea1d305e8ecb78390a15831d05.enc.backup
+  52f60bccf1b146ce63a1fee058f02728.enc
+  54b45028f2e4be95412d0c3c3615c2e4.enc
+  6050286832dce04a88854af20b9acc8a.enc
+  60a0e2e26a98314f4ee8720bbf637a19.enc
+  61f406d76982825a87b60ce234470bcf.enc
+  6381d4a643600e25c1184354d6ea9657.enc
+  6a6fabc4bc86146589e919f11afa3306.enc
+  6d2af3062cfac51d63b79b4d6d6b8223.enc
+  73c288b41fc16f09c95fc311d6a1ab88.enc
+  74c31201b0ca8c760ab9ead8913b11a9.enc
+  764cb3b3a87c02cf84f15ed3cdb4ff81.enc
+  79bf8980b5bcb45e7c2577667e754b58.enc
+  79bf8980b5bcb45e7c2577667e754b58.enc.backup
+  7cb239b8279b63d7029b2decb3479c06.enc
+  7cdbc2707510c89d8bbfed7fbdc97790.enc
+  7f11bee8309ffcee25dc1e39e73980bb.enc
+  837249d1a2bfa9aa20d7ca8b70b16c2d.enc
+  85617917f42f7f5e95105fe0b57e977b.enc
+  85617917f42f7f5e95105fe0b57e977b.enc.backup
+  859ab18188157b9113ea03c57eb45fce.enc
+  859ab18188157b9113ea03c57eb45fce.enc.backup
+  884137f88b846a0e45bd7fd28eb370e5.enc
+  884137f88b846a0e45bd7fd28eb370e5.enc.backup
+  8cceec2bbde583fcba97c742933de5d4.enc
+  8f16d1892c32783463b6cf605d43e899.enc
+  90fbd1affe0423801757e8baa3ffcfc6.enc
+  93df85fcb8066c08196c0de5af38a709.enc
+  95a980a83cac2ebb86ec35871bedd342.enc
+  95a980a83cac2ebb86ec35871bedd342.enc.backup
+  9936c66666ce0dba0d44905845b9b1b0.enc
+  9df650c3be9b2cdab91705506c3e7219.enc
+  a2c2ac616753a4b3be0972b2feb7cb0c.enc
+  a3b88e62717507160da569bebb690501.enc
+  a3b88e62717507160da569bebb690501.enc.backup
+  aafb8e1d1a6527e9a140d7a09e648120.enc
+  ae0bde54669fe7faeeee3618b2cc1216.enc
+  afad46ff9ef034def078093a636e89a8.enc
+  b3a3112d1f631f9dd07afbdbfdca61a7.enc
+  b411482cd8e0e86ff51860a55b107cc1.enc
+  b9c0a49f6fee0ee5af3c0b1aa296ac6f.enc
+  bb3920851d4e6aac72a825479c91b682.enc
+  bce04646a49f9437dde8436b5e60d360.enc
+  bf1e8238002cd445e62351b76936dd5e.enc
+  c3597c6dad10ee8e2648cddf29f47e6d.enc
+  ca4c1dfbf2ee2d6c5fbf54e1a6bf8eb2.enc
+  cc20dee38ddb785662ce9767b8b8e48f.enc
+  d089ae1b584f6a78413e8ddafd0a17c4.enc
+  dc91d533e8474492848d716e4bc69dca.enc
+  ddcd7fd081f0684036b3b779de35b550.enc
+  ddebd8db3715e8629cac41c4126a6341.enc
+  ddebd8db3715e8629cac41c4126a6341.enc.backup
+  e087cccebc779242ea71f24784c56b25.enc
+  e087cccebc779242ea71f24784c56b25.enc.backup
+  e27d1fa8d516d6226a5513322f8af146.enc
+  e3b1780f622539e6d7a4dda415cfa143.enc
+  f60f6d7c3559bdd58742c1b43cb2829f.enc
+  fb23f3d11d67c593904c3e1c2a1ed202.enc
+extracted
+ForensiVault
+  carved
+    699b14d242c9084c5ce67dd1
+      carved_0001.pdf
+      carved_0002.jpg
+      carved_0003.pdf
+      carved_0004.jpg
+      carved_0005.pdf
+    699b1c5a563fc3f5c724d9e5
+      carved_0001.pdf
+      carved_0002.jpg
+      carved_0003.pdf
+      carved_0004.jpg
+      carved_0005.pdf
+    699be5b5563fc3f5c724e2e7
+      carved_0001.pdf
+      carved_0002.jpg
+      carved_0003.pdf
+      carved_0004.jpg
+      carved_0005.pdf
+  disk-images
+    1771773018876_test_disk.img
+    1771824565279_test_disk.img
+  encrypted
+    059428c1e1bbe939c6384d7f976a1ab2.enc
+    07df66a4840afac14208bc94e884410a.enc
+    0a72322589f2b56d391b2f1d4e0f4a4c.enc
+    163de1e4590532953723010cf9f1c252.enc
+    1760640140298-hadhi muhammed.pdf.enc
+    1760640166412-hadhi muhammed.pdf.enc
+    1760640195057-hadhi muhammed.pdf.enc
+    1760640277934-Suhin Report Final.pdf.enc
+    1760640371428-hadhi muhammed.pdf.enc
+    1760640450745-hadhi muhammed.pdf.enc
+    1760640586766-hadhi muhammed.pdf.enc
+    1760640609074-hadhi muhammed.pdf.enc
+    1760640705045-hadhi muhammed.pdf.enc
+    179d63176041f908ee1efe1b0fad39fc.enc
+    2846a03a85cf70bf2fb0c62657b2ed62.enc
+    2a94e61faeddff19e21f802912d8b125.enc
+    2a94e61faeddff19e21f802912d8b125.enc.backup
+    42e60bea1d305e8ecb78390a15831d05.enc.backup
+    52f60bccf1b146ce63a1fee058f02728.enc
+    54b45028f2e4be95412d0c3c3615c2e4.enc
+    6050286832dce04a88854af20b9acc8a.enc
+    60a0e2e26a98314f4ee8720bbf637a19.enc
+    61f406d76982825a87b60ce234470bcf.enc
+    6381d4a643600e25c1184354d6ea9657.enc
+    6a6fabc4bc86146589e919f11afa3306.enc
+    6d2af3062cfac51d63b79b4d6d6b8223.enc
+    73c288b41fc16f09c95fc311d6a1ab88.enc
+    74c31201b0ca8c760ab9ead8913b11a9.enc
+    764cb3b3a87c02cf84f15ed3cdb4ff81.enc
+    79bf8980b5bcb45e7c2577667e754b58.enc
+    79bf8980b5bcb45e7c2577667e754b58.enc.backup
+    7cdbc2707510c89d8bbfed7fbdc97790.enc
+    7f11bee8309ffcee25dc1e39e73980bb.enc
+    837249d1a2bfa9aa20d7ca8b70b16c2d.enc
+    85617917f42f7f5e95105fe0b57e977b.enc
+    85617917f42f7f5e95105fe0b57e977b.enc.backup
+    859ab18188157b9113ea03c57eb45fce.enc
+    859ab18188157b9113ea03c57eb45fce.enc.backup
+    884137f88b846a0e45bd7fd28eb370e5.enc
+    884137f88b846a0e45bd7fd28eb370e5.enc.backup
+    8cceec2bbde583fcba97c742933de5d4.enc
+    8f16d1892c32783463b6cf605d43e899.enc
+    90fbd1affe0423801757e8baa3ffcfc6.enc
+    93df85fcb8066c08196c0de5af38a709.enc
+    95a980a83cac2ebb86ec35871bedd342.enc
+    95a980a83cac2ebb86ec35871bedd342.enc.backup
+    9936c66666ce0dba0d44905845b9b1b0.enc
+    a2c2ac616753a4b3be0972b2feb7cb0c.enc
+    a3b88e62717507160da569bebb690501.enc
+    a3b88e62717507160da569bebb690501.enc.backup
+    aafb8e1d1a6527e9a140d7a09e648120.enc
+    ae0bde54669fe7faeeee3618b2cc1216.enc
+    afad46ff9ef034def078093a636e89a8.enc
+    b3a3112d1f631f9dd07afbdbfdca61a7.enc
+    b411482cd8e0e86ff51860a55b107cc1.enc
+    b9c0a49f6fee0ee5af3c0b1aa296ac6f.enc
+    bb3920851d4e6aac72a825479c91b682.enc
+    bce04646a49f9437dde8436b5e60d360.enc
+    bf1e8238002cd445e62351b76936dd5e.enc
+    c3597c6dad10ee8e2648cddf29f47e6d.enc
+    ca4c1dfbf2ee2d6c5fbf54e1a6bf8eb2.enc
+    cc20dee38ddb785662ce9767b8b8e48f.enc
+    d089ae1b584f6a78413e8ddafd0a17c4.enc
+    dc91d533e8474492848d716e4bc69dca.enc
+    ddcd7fd081f0684036b3b779de35b550.enc
+    ddebd8db3715e8629cac41c4126a6341.enc
+    ddebd8db3715e8629cac41c4126a6341.enc.backup
+    e087cccebc779242ea71f24784c56b25.enc
+    e087cccebc779242ea71f24784c56b25.enc.backup
+    e27d1fa8d516d6226a5513322f8af146.enc
+    e3b1780f622539e6d7a4dda415cfa143.enc
+    f60f6d7c3559bdd58742c1b43cb2829f.enc
+    fb23f3d11d67c593904c3e1c2a1ed202.enc
+  forensivault-ui
+    public
+      vite.svg
+    src
+      assets
+        react.svg
+      components
+        Auth
+          AuthPage.css
+          AuthPage.jsx
+        Cases
+          CaseDetail.jsx
+          CaseForm.jsx
+          CaseList.jsx
+          Cases.css
+        Common
+          LoadingSpinner.css
+          LoadingSpinner.jsx
+          Modal.css
+          Modal.jsx
+          QuickActions.css
+          QuickActions.jsx
+          SearchModal.css
+          SearchModal.jsx
+          StatCard.css
+          StatCard.jsx
+          StatusBadge.css
+          StatusBadge.jsx
+        Dashboard
+          AdminDashboard.jsx
+          AnalystDashboard.jsx
+          Dashboard.css
+          OfficerDashboard.jsx
+        Evidence
+          Evidence.css
+          EvidenceDetail.jsx
+          EvidenceList.jsx
+          EvidenceUpload.jsx
+        ForensicTools
+          DiskImageList.jsx
+          DiskImageUpload.jsx
+          FileCarving.jsx
+          FileExplorer.jsx
+          ForensicTools.css
+          ForensicTools.jsx
+        Layout
+          Layout.css
+          Layout.jsx
+          Sidebar.css
+          Sidebar.jsx
+          Topbar.css
+          Topbar.jsx
+        Users
+          UserForm.jsx
+          UserList.jsx
+          Users.css
+      context
+        AuthContext.jsx
+        ThemeContext.jsx
+      pages
+        CasesPage.jsx
+        DashboardPage.jsx
+        EvidencePage.jsx
+        ForensicToolsPage.jsx
+        LogsPage.jsx
+        UsersPage.jsx
+      services
+        api.js
+      App.css
+      App.jsx
+      index.css
+      main.jsx
+    .gitignore
+    eslint.config.js
+    index.html
+    package-lock.json
+    package.json
+    README.md
+    vite.config.js
+  models
+    Evidence.js
+    Log.js
+  python-services
+    app.py
+    config.py
+    content_analyzer.py
+    disk_parser.py
+    file_carver.py
+    file_extractor.py
+    forensic_analyzer.py
+    requirements.txt
+  screenshots
+    Screenshot 2025-09-14 222355.png
+    Screenshot 2025-09-14 222410.png
+    Screenshot 2025-09-14 222943.png
+    Screenshot 2025-09-14 222959.png
+    Screenshot 2025-09-14 223016.png
+    Screenshot 2025-09-14 223033.png
+    Screenshot 2025-09-14 223046.png
+    Screenshot 2025-09-14 223108.png
+    Screenshot 2025-09-14 224647.png
+  services
+    contentExtractor.js
+  test_files
+    test_document.pdf
+    test_evidence.txt
+    test_image.png
+  uploads
+    07df66a4840afac14208bc94e884410a
+    1757867356120-611005969-report 2.pdf
+    1757867364170-379067917-report 2.pdf
+    179d63176041f908ee1efe1b0fad39fc
+    2846a03a85cf70bf2fb0c62657b2ed62
+    52f60bccf1b146ce63a1fee058f02728
+    54b45028f2e4be95412d0c3c3615c2e4
+    6050286832dce04a88854af20b9acc8a
+    60a0e2e26a98314f4ee8720bbf637a19
+    61f406d76982825a87b60ce234470bcf
+    6381d4a643600e25c1184354d6ea9657
+    6a6fabc4bc86146589e919f11afa3306
+    6d2af3062cfac51d63b79b4d6d6b8223
+    73c288b41fc16f09c95fc311d6a1ab88
+    74c31201b0ca8c760ab9ead8913b11a9
+    764cb3b3a87c02cf84f15ed3cdb4ff81
+    7cdbc2707510c89d8bbfed7fbdc97790
+    7f11bee8309ffcee25dc1e39e73980bb
+    837249d1a2bfa9aa20d7ca8b70b16c2d
+    8cceec2bbde583fcba97c742933de5d4
+    93df85fcb8066c08196c0de5af38a709
+    9936c66666ce0dba0d44905845b9b1b0
+    a2c2ac616753a4b3be0972b2feb7cb0c
+    aafb8e1d1a6527e9a140d7a09e648120
+    ae0bde54669fe7faeeee3618b2cc1216
+    afad46ff9ef034def078093a636e89a8
+    b3a3112d1f631f9dd07afbdbfdca61a7
+    b411482cd8e0e86ff51860a55b107cc1
+    b9c0a49f6fee0ee5af3c0b1aa296ac6f
+    bb3920851d4e6aac72a825479c91b682
+    bce04646a49f9437dde8436b5e60d360
+    c3597c6dad10ee8e2648cddf29f47e6d
+    ca4c1dfbf2ee2d6c5fbf54e1a6bf8eb2
+    d089ae1b584f6a78413e8ddafd0a17c4
+    dc91d533e8474492848d716e4bc69dca
+    ddcd7fd081f0684036b3b779de35b550
+    e27d1fa8d516d6226a5513322f8af146
+    f60f6d7c3559bdd58742c1b43cb2829f
+    fb23f3d11d67c593904c3e1c2a1ed202
+  utils
+    pythonBridge.js
+  .env
+  api calls.txt
+  carving_files.txt
+  create_test_disk.py
+  create_test_image.js
+  create_test_pdf.js
+  create_user.js
+  DEVELOPMENT_DIARY.md
+  eng.traineddata
+  export_project.ps1
+  hash_backup.json
+  models.js
+  package-lock.json
+  package.json
+  PROGRESS_SLIDE.md
+  PROGRESS_SLIDES.md
+  PROJECT_DOCUMENTATION.txt
+  project_dump.txt
+  project_export_clean.txt
+  project_tree.txt
+  README.md
+  repomix-output.xml
+  RESULT_ANALYSIS.md
+  server.js
+  tamper_image.js
+  tamper_pdf.js
+  test_disk.img
+  test_tampering.js
+forensivault-ui
+  public
+    vite.svg
+  src
+    assets
+      react.svg
+    components
+      Auth
+        AuthPage.css
+        AuthPage.jsx
+      Cases
+        CaseDetail.jsx
+        CaseForm.jsx
+        CaseList.jsx
+        Cases.css
+      Common
+        LoadingSpinner.css
+        LoadingSpinner.jsx
+        Modal.css
+        Modal.jsx
+        QuickActions.css
+        QuickActions.jsx
+        SearchModal.css
+        SearchModal.jsx
+        StatCard.css
+        StatCard.jsx
+        StatusBadge.css
+        StatusBadge.jsx
+      Dashboard
+        AdminDashboard.jsx
+        AnalystDashboard.jsx
+        Dashboard.css
+        OfficerDashboard.jsx
+      Evidence
+        Evidence.css
+        EvidenceDetail.jsx
+        EvidenceList.jsx
+        EvidenceUpload.jsx
+      ForensicTools
+        DiskImageList.jsx
+        DiskImageUpload.jsx
+        FileCarving.jsx
+        FileExplorer.jsx
+        ForensicTools.css
+        ForensicTools.jsx
+      Layout
+        Layout.css
+        Layout.jsx
+        Sidebar.css
+        Sidebar.jsx
+        Topbar.css
+        Topbar.jsx
+      Logs
+        ActivityLogs.jsx
+        Logs.css
+      Users
+        UserForm.jsx
+        UserList.jsx
+        Users.css
+    context
+      AuthContext.jsx
+      ThemeContext.jsx
+    pages
+      CasesPage.jsx
+      DashboardPage.jsx
+      EvidencePage.jsx
+      ForensicToolsPage.jsx
+      LogsPage.jsx
+      UsersPage.jsx
+    services
+      api.js
+    App.css
+    App.jsx
+    index.css
+    main.jsx
+  .gitignore
+  eslint.config.js
+  index.html
+  package-lock.json
+  package.json
+  README.md
+  vite.config.js
+models
+  Evidence.js
+  Log.js
+python-services
+  app.py
+  config.py
+  content_analyzer.py
+  disk_parser.py
+  file_carver.py
+  file_extractor.py
+  forensic_analyzer.py
+  requirements.txt
+reports
+screenshots
+  Screenshot 2025-09-14 222355.png
+  Screenshot 2025-09-14 222410.png
+  Screenshot 2025-09-14 222943.png
+  Screenshot 2025-09-14 222959.png
+  Screenshot 2025-09-14 223016.png
+  Screenshot 2025-09-14 223033.png
+  Screenshot 2025-09-14 223046.png
+  Screenshot 2025-09-14 223108.png
+  Screenshot 2025-09-14 224647.png
+services
+  contentExtractor.js
+temp
+test_files
+  images
+  test_document.pdf
+  test_evidence.txt
+  test_image.png
+uploads
+  07df66a4840afac14208bc94e884410a
+  1757867356120-611005969-report 2.pdf
+  1757867364170-379067917-report 2.pdf
+  179d63176041f908ee1efe1b0fad39fc
+  2846a03a85cf70bf2fb0c62657b2ed62
+  52f60bccf1b146ce63a1fee058f02728
+  54b45028f2e4be95412d0c3c3615c2e4
+  6050286832dce04a88854af20b9acc8a
+  60a0e2e26a98314f4ee8720bbf637a19
+  61f406d76982825a87b60ce234470bcf
+  6381d4a643600e25c1184354d6ea9657
+  6a6fabc4bc86146589e919f11afa3306
+  6d2af3062cfac51d63b79b4d6d6b8223
+  73c288b41fc16f09c95fc311d6a1ab88
+  74c31201b0ca8c760ab9ead8913b11a9
+  764cb3b3a87c02cf84f15ed3cdb4ff81
+  7cdbc2707510c89d8bbfed7fbdc97790
+  7f11bee8309ffcee25dc1e39e73980bb
+  837249d1a2bfa9aa20d7ca8b70b16c2d
+  8cceec2bbde583fcba97c742933de5d4
+  93df85fcb8066c08196c0de5af38a709
+  9936c66666ce0dba0d44905845b9b1b0
+  a2c2ac616753a4b3be0972b2feb7cb0c
+  aafb8e1d1a6527e9a140d7a09e648120
+  ae0bde54669fe7faeeee3618b2cc1216
+  afad46ff9ef034def078093a636e89a8
+  b3a3112d1f631f9dd07afbdbfdca61a7
+  b411482cd8e0e86ff51860a55b107cc1
+  b9c0a49f6fee0ee5af3c0b1aa296ac6f
+  bb3920851d4e6aac72a825479c91b682
+  bce04646a49f9437dde8436b5e60d360
+  c3597c6dad10ee8e2648cddf29f47e6d
+  ca4c1dfbf2ee2d6c5fbf54e1a6bf8eb2
+  d089ae1b584f6a78413e8ddafd0a17c4
+  dc91d533e8474492848d716e4bc69dca
+  ddcd7fd081f0684036b3b779de35b550
+  e27d1fa8d516d6226a5513322f8af146
+  f60f6d7c3559bdd58742c1b43cb2829f
+  fb23f3d11d67c593904c3e1c2a1ed202
+utils
+  pythonBridge.js
+.env
+api calls.txt
+carving_files.txt
+create_test_disk.py
+create_test_image.js
+create_test_pdf.js
+create_user.js
+DEVELOPMENT_DIARY.md
+eng.traineddata
+export_project.ps1
+hash_backup.json
+models.js
+package-lock.json
+package.json
+PROGRESS_SLIDE.md
+PROGRESS_SLIDES.md
+PROJECT_DOCUMENTATION.txt
+project_dump.txt
+project_export_clean.txt
+project_snapshot.txt
+project_snapshot_small.txt
+project_tree.txt
+README.md
+repomix-output.xml
+results
+RESULT_ANALYSIS.md
+server.js
+tamper_image.js
+tamper_pdf.js
+test_disk.img
+test_tampering.js
+
+===== PACKAGE.JSON FILES =====
+
+--- C:\Users\ASUS\Downloads\forensivault\forensivault\package.json ---
+{
+  "name": "forensivault",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "pdfkit": "^0.17.2"
+  }
+}
+
+--- C:\Users\ASUS\Downloads\forensivault\forensivault\ForensiVault\package.json ---
+{
+  "name": "forensivault",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "pdfkit": "^0.17.2"
+  }
+}
+
+--- C:\Users\ASUS\Downloads\forensivault\forensivault\ForensiVault\forensivault-ui\package.json ---
+{
+  "name": "forensivault-ui",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.2.0"
+  }
+}
+
+--- C:\Users\ASUS\Downloads\forensivault\forensivault\forensivault-ui\package.json ---
+{
+  "name": "forensivault-ui",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.2.0"
+  }
+}
+
+===== REQUIREMENTS.TXT FILES =====
+
+--- C:\Users\ASUS\Downloads\forensivault\forensivault\ForensiVault\python-services\requirements.txt ---
+# ForensiVault Python Services - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Web Framework
+flask==3.0.0
+flask-cors==4.0.0
+
+# File Type Detection (Windows compatible)
+python-magic-bin==0.4.14
+
+# Image Processing
+Pillow>=11.0.0
+
+# Document Parsing
+python-docx==1.1.0
+PyPDF2==3.0.1
+openpyxl==3.1.2
+
+# Utilities
+python-dateutil==2.8.2
+
+--- C:\Users\ASUS\Downloads\forensivault\forensivault\python-services\requirements.txt ---
+# ForensiVault Python Services - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Web Framework
+flask==3.0.0
+flask-cors==4.0.0
+
+# File Type Detection (Windows compatible)
+python-magic-bin==0.4.14
+
+# Image Processing
+Pillow>=11.0.0
+
+# Document Parsing
+python-docx==1.1.0
+PyPDF2==3.0.1
+openpyxl==3.1.2
+
+# Utilities
+python-dateutil==2.8.2
+
+===== DOCKER COMPOSE =====
+
+===== ENV EXAMPLES =====
