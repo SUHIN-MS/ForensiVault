@@ -1675,6 +1675,59 @@ app.post(
             diskImage.status = "ready";
             diskImage.fileSystem = "unknown";
             await diskImage.save();
+            return;
+          }
+
+          // Upload file to Python service so it can access it
+          const uploadResult = await pythonBridge.uploadDiskImageToPython(newPath, newFilename);
+          const pythonPath = uploadResult.data.imagePath;
+
+          // Update storagePath to Python's path for future carving calls
+          diskImage.storagePath = pythonPath;
+          await diskImage.save();
+
+          try {
+            const parseResult = await pythonBridge.parseDiskImage(pythonPath);
+            const rawFs = (parseResult.data?.diskInfo?.fileSystem || "unknown").toLowerCase();
+            const validFileSystems = ["ntfs", "fat32", "fat16", "exfat", "ext4", "ext3", "hfs", "unknown"];
+            diskImage.fileSystem = validFileSystems.includes(rawFs) ? rawFs : "unknown";
+            diskImage.parseResult = {
+              diskInfo: parseResult.data?.diskInfo,
+              parsedAt: new Date(),
+            };
+          } catch (parseErr) {
+            console.log("Parse error:", parseErr.message);
+            diskImage.fileSystem = "unknown";
+          }
+
+          try {
+            const statsResult = await pythonBridge.getDiskStats(pythonPath);
+            if (diskImage.parseResult) {
+              diskImage.parseResult.statistics = statsResult.data?.statistics;
+            }
+          } catch (statsErr) {
+            console.log("Stats error:", statsErr.message);
+          }
+
+          diskImage.status = "ready";
+          await diskImage.save();
+          console.log("Disk image ready:", file.originalname);
+
+        } catch (err) {
+          console.error("Background parse error:", err.message);
+          diskImage.status = "ready";
+          diskImage.fileSystem = "unknown";
+          diskImage.errorMessage = err.message;
+          await diskImage.save();
+        }
+      })();
+      /*(async () => {
+        try {
+          const serviceStatus = await pythonBridge.checkPythonService();
+          if (!serviceStatus.running) {
+            diskImage.status = "ready";
+            diskImage.fileSystem = "unknown";
+            await diskImage.save();
             console.log("Python service offline - setting disk image to ready");
             return;
           }
@@ -1718,7 +1771,7 @@ app.post(
           await diskImage.save();
           console.log("Set to ready despite error - carving will still work");
         }
-      })();
+      })();*/
 
       res.status(201).json({
         message: "Disk image uploaded successfully. Parsing in progress...",

@@ -6,6 +6,9 @@
 
 const http = require('http');
 
+const FormData = require('form-data');
+const fs = require('fs');
+
 const PYTHON_SERVICE_URL = process.env.PYTHON_SERVICE_URL || 'http://127.0.0.1:5001';
 
 /**
@@ -236,6 +239,51 @@ async function analyzeBatch(filePaths) {
   return pythonRequest('/analyze/batch', 'POST', { filePaths });
 }
 
+/**
+ * Upload a disk image file directly to the Python service
+ */
+async function uploadDiskImageToPython(localFilePath, filename) {
+  return new Promise((resolve, reject) => {
+    const form = new FormData();
+    form.append('file', fs.createReadStream(localFilePath), filename);
+
+    const url = new URL(PYTHON_SERVICE_URL + '/disk/upload');
+    const options = {
+      hostname: url.hostname,
+      port: url.port,
+      path: url.pathname,
+      method: 'POST',
+      headers: form.getHeaders(),
+      timeout: 60000,
+    };
+
+    const req = http.request(options, (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        try {
+          const parsed = JSON.parse(data);
+          if (res.statusCode >= 400) {
+            reject(new Error(parsed.error || 'Python upload failed'));
+          } else {
+            resolve(parsed);
+          }
+        } catch(e) {
+          reject(new Error('Invalid JSON from Python service'));
+        }
+      });
+    });
+
+    req.on('error', reject);
+    req.on('timeout', () => {
+      req.destroy();
+      reject(new Error('Upload to Python timed out'));
+    });
+
+    form.pipe(req);
+  });
+}
+
 module.exports = {
   pythonRequest,
   checkPythonService,
@@ -254,6 +302,7 @@ module.exports = {
   getCarvingStatus,
   getCarvingResults,
   getSupportedCarvingTypes,
+  uploadDiskImageToPython,  
   PYTHON_SERVICE_URL,
   analyzeFile,
   analyzeBatch,

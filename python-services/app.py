@@ -88,6 +88,31 @@ def health_check():
         }
     })
 
+@app.route('/disk/upload', methods=['POST'])
+def upload_disk_image():
+    """Receive a disk image file and save it locally"""
+    try:
+        if 'file' not in request.files:
+            return error_response("No file provided")
+        
+        file = request.files['file']
+        if file.filename == '':
+            return error_response("No file selected")
+        
+        save_dir = Config.DISK_IMAGES_DIR
+        save_dir.mkdir(parents=True, exist_ok=True)
+        save_path = save_dir / file.filename
+        file.save(str(save_path))
+        
+        return success_response({
+            'imagePath': str(save_path),
+            'filename': file.filename,
+            'size': os.path.getsize(str(save_path))
+        }, "Disk image uploaded successfully")
+    
+    except Exception as e:
+        traceback.print_exc()
+        return error_response(str(e), 500)
 
 # ═══════════════════════════════════════════════════════════════════════════
 # DISK IMAGE MANAGEMENT
