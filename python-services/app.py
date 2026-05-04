@@ -24,7 +24,7 @@ from file_carver import FileCarver
 
 # Initialize Flask app
 app = Flask(__name__)
-CORS(app, origins=['http://localhost:3000', 'http://localhost:5173'])
+CORS(app, origins=['http://localhost:3000', 'http://localhost:5173', 'https://forensi-vault.vercel.app'])
 
 # Ensure directories exist
 Config.ensure_directories()
