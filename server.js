@@ -2175,6 +2175,20 @@ app.get("/api/disk-images/:id/stats", authMiddleware, roleMiddleware("admin", "a
   }
 });
 
+// Python service status check
+app.get('/api/disk-images/service-status', authMiddleware, async (req, res) => {
+  try {
+    const status = await pythonBridge.checkPythonService();
+    res.json({
+      running: status.running,
+      status: status.running ? 'online' : 'offline',
+      ...status
+    });
+  } catch (err) {
+    res.json({ running: false, status: 'offline', error: err.message });
+  }
+});
+
 // ═══════════════════════════════════════════════════════════════════════════
 // FILE CARVING ROUTES
 // ═══════════════════════════════════════════════════════════════════════════
