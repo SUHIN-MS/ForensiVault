@@ -23,36 +23,15 @@ const pythonBridge = require("./utils/pythonBridge");
 
 const app = express();
 
-const cloudinary = require('cloudinary').v2;
-const { CloudinaryStorage } = require('multer-storage-cloudinary');
-
-cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET,
-});
-
 // Multer config for regular file uploads
-const storage = new CloudinaryStorage({
-  cloudinary: cloudinary,
-  params: {
-    folder: 'forensivault/uploads',
-    resource_type: 'raw',
-  },
-});
-const upload = multer({ storage });
+const upload = multer({ dest: "uploads/" });
 
 // Multer config for large disk images
-const diskImageStorage = new CloudinaryStorage({
-  cloudinary: cloudinary,
-  params: {
-    folder: 'forensivault/disk-images',
-    resource_type: 'raw',
+const diskImageUpload = multer({
+  dest: "disk-images/",
+  limits: {
+    fileSize: 1024 * 1024 * 1024 * 100, // 100 GB limit
   },
-});
-const diskImageUpload = multer({ 
-  storage: diskImageStorage,
-  limits: { fileSize: 1024 * 1024 * 1024 * 100 }
 });
 
 // Middleware
